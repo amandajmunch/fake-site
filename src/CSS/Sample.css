@@ -1,33 +1,44 @@
+
 .sample {
   display: flex;
   /*padding-top: 40px;*/
-  padding: 40px 4vh 0 4vh;
+  padding: 40px 10vh 0 10vh;
   margin: 0 2vh 0 2vh;
 }
 
 .sample p {
   padding-top: 22px;
-  padding-right: 4vh;
-  /*width: 500px;*/
+  padding-right: 20vh;
+  width: 80vh;
 }
 
 /*.sample {
   width: 100%;
-}
+}*/
 
 .image{
   position: absolute;
 }
 
-.stockimage{
-  background-image: linear-gradient(#ee2e1d, #ffb1b5, url("../images/hero-image.png"));
+#stockimage{
+  background-image: linear-gradient(#ee2e1d, #ffb1b5);
 }
 
-*/
-/*.playbnt{
-  display: flex;
-  justify-content: center;
-
+.overlay {
+    /*background-color: rgba(55, 155, 55, 0.5);*/
+    background-image: linear-gradient(#ee2e1d, #ffb1b5);
+    opacity: 0.5;
+    width: 463px;
+    height: 257px;
+    position: absolute;
 }
-*/
+
+#playbtn{
+  padding-left: 24vh;
+  padding-top: 8vh;
+}
+
+.sample h2{
+   font-weight: lighter;
+}
 

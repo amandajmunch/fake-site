@@ -22,6 +22,7 @@
 .header p {
   color: #fff !important;
   width: 500px;
+  font-weight: lighter;
 }
 
 .header {
@@ -36,4 +37,21 @@
 
 .head ul {
   margin: 0;
+}
+
+.head h1{
+  font-weight: lighter;
+}
+
+/*---------Mobile design-------------*/
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .header {
+    width: 80%;
+    font-size: 30vh;
+  }
+
 }

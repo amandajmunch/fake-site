@@ -1,6 +1,19 @@
 .footerNav {
   display: flex;
   flex-direction: row;
-  padding: 40px 0 40px 0;
+  padding: 40px 0 40px 4vh;
   margin-left: 2vh;
+}
+
+.footerNav li{
+  padding-top: 6px;
+}
+
+.footerNav ul {
+  padding-right: 6vh;
+}
+
+.ulTitle {
+  font-weight: bold;
+  margin-bottom: 2vh;
 }

@@ -11,11 +11,13 @@ const Sample = () =>{
        <p>Hosts are chefs, hikers, or just knowledgeable locals who want to show others little-known pockets of their community. They can host an experience of multiple ones over the course of a few days.</p>
       </div>
       <div className="imageContainer">
-       <div className="stockimage image">
-        <img src={stockimage}/>
+       <div className="image">
+        <img src={stockimage} id="stockimage"/>
        </div>
-       <div className="playbtn image"><img src={playbtn}/></div>
+       <div className="overlay"></div>
+        <div className="image"><img src={playbtn} id="playbtn"/></div>
        </div>
+
     </div>
     )
 }
