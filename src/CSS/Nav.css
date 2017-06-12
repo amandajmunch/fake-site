@@ -1,0 +1,20 @@
+.nav ul{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav {
+  background-color: rgba(0,0,0,0);
+/*  display: flex;*/
+ padding-top: 2vh;
+}
+
+.nav a {
+  color: #fff !important;
+  padding-left: 6vh;
+
+}
+
+.logo {
+  margin-right: auto;
+}

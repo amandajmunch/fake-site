@@ -1,0 +1,39 @@
+.head {
+  background-image: url("../images/hero-image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh;
+  width: 100%;
+  padding: 0;
+}
+
+.awesome{
+  background-color: #EE2D1C;
+  font-size: 22px;
+  min-height: 55px;
+  width: 250px;
+  border-radius: 30px;
+  text-align: left !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header p {
+  color: #fff !important;
+  width: 500px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10vh;
+  color: #fff;
+}
+
+.head ul {
+  margin: 0;
+}

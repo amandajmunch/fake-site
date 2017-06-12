@@ -1,0 +1,11 @@
+.ready {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ready p {
+  width: 800px;
+  text-align: center;
+}

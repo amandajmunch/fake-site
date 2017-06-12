@@ -1,0 +1,32 @@
+.sample {
+  display: flex;
+}
+
+/*.imageContainer{
+  position: relative;
+}*/
+
+.sample p {
+  width: 600px;
+}
+
+.sample {
+  width: 100%;
+}
+
+.image{
+  position: absolute;
+}
+
+.stockimage{
+  background-image: linear-gradient(#ee2e1d, #ffb1b5, url("../images/hero-image.png"));
+}
+
+
+.playbnt{
+  display: flex;
+  justify-content: center;
+
+}
+
+

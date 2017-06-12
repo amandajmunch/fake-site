@@ -1,0 +1,42 @@
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a{
+  color: #88939E;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #4C4C51;
+}
+
+h1{
+  font-size: 48px;
+  line-height: 48px;
+  color: #fff;
+}
+
+h2{
+  font-size: 36px;
+  line-height: 36px;
+  color: #333333;
+}
+
+p{
+  font-size: 22px;
+  line-height: 28px;
+  color: #4C4C51;
+}
+
+ul {
+  color: #EE2D1C;
+}
+
