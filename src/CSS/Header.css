@@ -2,7 +2,7 @@
   background-image: url("../images/hero-image.png");
   background-position: center;
   background-repeat: no-repeat;
-  height: 75vh;
+  height: 85vh;
   width: 100%;
   padding: 0;
 }
@@ -11,7 +11,7 @@
   background-color: #EE2D1C;
   font-size: 22px;
   min-height: 55px;
-  width: 250px;
+  width: 270px;
   border-radius: 30px;
   text-align: left !important;
   display: flex;

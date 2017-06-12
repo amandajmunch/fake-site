@@ -1,16 +1,17 @@
 .sample {
   display: flex;
+  /*padding-top: 40px;*/
+  padding: 40px 4vh 0 4vh;
+  margin: 0 2vh 0 2vh;
 }
-
-/*.imageContainer{
-  position: relative;
-}*/
 
 .sample p {
-  width: 600px;
+  padding-top: 22px;
+  padding-right: 4vh;
+  /*width: 500px;*/
 }
 
-.sample {
+/*.sample {
   width: 100%;
 }
 
@@ -22,11 +23,11 @@
   background-image: linear-gradient(#ee2e1d, #ffb1b5, url("../images/hero-image.png"));
 }
 
-
-.playbnt{
+*/
+/*.playbnt{
   display: flex;
   justify-content: center;
 
 }
-
+*/
 

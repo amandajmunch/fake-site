@@ -2,6 +2,7 @@ import React from 'react';
 import '../CSS/Header.css';
 import Logo from '../images/logo.png';
 import '../CSS/Nav.css';
+import amanda from '../images/amanda.jpg';
 
 const Header = () =>{
   return (
@@ -12,7 +13,7 @@ const Header = () =>{
             <li className="logo"><img src={Logo}/></li>
             <li><a href="">Account</a></li>
             <li><a href="">Help</a></li>
-            <li>person image</li>
+            <li><img src={amanda} className="amanda"/></li>
           </ul>
         </nav>
       </div>

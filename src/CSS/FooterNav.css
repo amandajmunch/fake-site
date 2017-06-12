@@ -1,4 +1,6 @@
 .footerNav {
   display: flex;
   flex-direction: row;
+  padding: 40px 0 40px 0;
+  margin-left: 2vh;
 }

@@ -5,16 +5,26 @@
 
 .nav {
   background-color: rgba(0,0,0,0);
-/*  display: flex;*/
- padding-top: 2vh;
+  padding-top: 2vh;
 }
 
 .nav a {
   color: #fff !important;
-  padding-left: 6vh;
+}
 
+.nav li {
+  padding-left: 2vh;
+  padding-right: 4vh;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
   margin-right: auto;
+}
+
+.amanda{
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #fff;
 }
