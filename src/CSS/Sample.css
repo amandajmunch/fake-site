@@ -42,3 +42,45 @@
    font-weight: lighter;
 }
 
+/*---------Mobile design-------------*/
+@media only screen
+  and (min-device-width: 300px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .sample h2{
+    width: 90%;
+    text-align: center;
+  }
+
+  .sample p {
+    width: 90%;
+    text-align: center;
+  }
+
+  .sample {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .image {
+    margin: 0 auto;
+  }
+
+  #stockimage{
+    margin-left: 0;
+    width: 90%;
+  }
+
+  #playbtn {
+    padding-left: 12vh;
+    padding-top: 3vh;
+  }
+
+  .overlay{
+    width: 71%;
+    height: 22.3%;
+  }
+}
+

@@ -45,13 +45,19 @@
 
 /*---------Mobile design-------------*/
 @media only screen
-  and (min-device-width: 320px)
+  and (min-device-width: 300px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
   .header {
-    width: 80%;
-    font-size: 30vh;
+    width: 90%;
+    text-align: center;
   }
+
+  .header p {
+    width: 90%;
+    overflow: auto;
+  }
+
 
 }

@@ -15,3 +15,24 @@
 .ready h2{
   font-weight: lighter;
 }
+
+/*---------Mobile design-------------*/
+@media only screen
+  and (min-device-width: 300px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .ready {
+    width: 100%;
+    /*overflow: auto;*/
+  }
+
+  .ready p {
+    width: 80%;
+  }
+
+  .ready h2{
+    width: 80%;
+    text-align: center;
+  }
+}
